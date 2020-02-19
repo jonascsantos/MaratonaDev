@@ -8,8 +8,6 @@ function App (){
         <div>
             <Header />
             <TodoItem />
-            <TodoItem />
-            <TodoItem />
             <Footer />
         </div>
     );
