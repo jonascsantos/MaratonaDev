@@ -2,33 +2,11 @@ import React from "react"
 import ReactDOM from "react-dom"
 import './index.css';
 
-function Mylist (){
-    return (
-        <div>
-            <h1>Jonas dos Santos</h1>
-            <p>Lorem ipsum dolor</p>
-            <ol>
-                <li>US</li>
-                <li>Germany</li>
-                <li>UK</li>
-            </ol>
-        </div>
-    );
-}
-
-class Test extends React.Component{
-    render () {
-        return (
-            <div>
-                <Mylist />
-            </div>
-        );
-    }
-}
+import App from "./App"
 
 
 ReactDOM.render(
-    <Test />,
+    <App />,
     document.getElementById("root")
 )
 
