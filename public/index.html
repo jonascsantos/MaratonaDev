@@ -1,68 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Web site created using create-react-app" />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <title>Doe sangue! Doe vida!</title>
+    </head>
 
-<head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Web site created using create-react-app" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <title>Doe sangue! Doe vida!</title>
-</head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <header>
+            <img 
+                class="logo"
+                src="logo.png" 
+                alt="Imagem de DOE" 
+            >
+            <h1>DOE</h1>
+            <h2>A sua doação importa</h2>
+            <p>Até 3 vdias com 1 doação</p>
+            <p>Mais de 30.000 doações são necessárias todos os dias</p>
+            <p>Apenas 1.9% da popupalçao brasileira, doa sangue</p>
 
-<body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <header>
-        <h1>DOE</h1>
-        <h2>A sua doação importa</h2>
-        <p>Até 3 vdias com 1 doação</p>
-        <p>Mais de 30.000 doações são necessárias todos os dias</p>
-        <p>Apenas 1.9% da popupalçao brasileira, doa sangue</p>
-
-        <button>Quero Ajudar</button>
-    </header>
-
-    <section class="form">
-        <h2>Entre na lista de doadores</h2>
-        <form action="/">
-            <input type="text" name="name" placeholder="Nome Completo">
-            <input type="text" name="email" placeholder="Email">
-            <input type="text" name="blood" placeholder="Tipo Sanguíneo">
             <button>Quero Ajudar</button>
-        </form>
-    </section>
+        </header>
 
-    <main>
-        <h2>Últimos doadores</h2>
-
-        <section class="donors">
-            <div class="donor">
-                <div class="blood">AB+</div>
-                <p>Jonas dos Santos</p>
-            </div>
-            <div class="donor">
-                <div class="blood">A+</div>
-                <p>Maick dos Santos</p>
-            </div>
-            <div class="donor">
-                <div class="blood">B+</div>
-                <p>Mario dos Santos</p>
-            </div>
-            <div class="donor">
-                <div class="blood">O+</div>
-                <p>Silva dos Santos</p>
-            </div>
+        <section class="form">
+            <h2>Entre na lista de doadores</h2>
+            <form action="/">
+                <input type="text" name="name" placeholder="Nome Completo">
+                <input type="text" name="email" placeholder="Email">
+                <input type="text" name="blood" placeholder="Tipo Sanguíneo">
+                <button>Quero Ajudar</button>
+            </form>
         </section>
-        <div id="root">
 
-        </div>
+        <main>
+            <h2>Últimos <span>doadores</span></h2>
 
-    </main>
+            <section class="donors">
+                <div class="donor">
+                    <div class="blood">AB+</div>
+                    <p>Jonas dos Santos</p>
+                </div>
+                <div class="donor">
+                    <div class="blood">A+</div>
+                    <p>Maick dos Santos</p>
+                </div>
+                <div class="donor">
+                    <div class="blood">B+</div>
+                    <p>Mario dos Santos</p>
+                </div>
+                <div class="donor">
+                    <div class="blood">O+</div>
+                    <p>Silva dos Santos</p>
+                </div>
+            </section>
+            <div id="root">
 
-    <footer>Com ❤️ Por Jonas dos Santos</footer>
-</body>
+            </div>
+
+        </main>
+
+        <footer>Com ❤️ Por Jonas dos Santos</footer>
+    </body>
 
 </html>
