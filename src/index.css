@@ -1,8 +1,28 @@
-body {
+html, body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
-  }
+  margin: 0px;
+}
 
-  ol, ul {
-  padding-left: 30px;
-  }
+ol, ul {
+    padding-left: 30px;
+}
+
+header, main, footer {
+    text-align: center;
+}
+
+.donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header,.form, main{
+    margin: 0 auto 70px;
+    width: 90%;
+    max-width: 500px;
+}
