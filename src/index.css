@@ -102,9 +102,9 @@ form button {
     font-weight: bold;
 }
 
-.logo {
+img.logo {
     width: 120px;
-    margin-top: 70px 0;
+    margin: 70px 0px;
 }
 
 header p {
