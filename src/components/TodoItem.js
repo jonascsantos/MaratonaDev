@@ -11,7 +11,6 @@ function TodoItem(props){
             <p>{props.item.text}</p>
         </div>    
     );
-
 }
 
 export default TodoItem
